@@ -1,9 +1,9 @@
 package Entites;
 
-public class compteSimple extends Compte{
+public class CompteSimple extends Compte{
     private float decouvert;
 //constructor
-    public compteSimple(float decouvert) {
+    public CompteSimple(float decouvert) {
         super();
         this.decouvert = decouvert;
     }
@@ -12,7 +12,7 @@ public class compteSimple extends Compte{
         if(mt-decouvert<=solde )
             solde-=mt;
     }
-    //Redifinition de la classe toString
+    //Redefinition de la classe toString
     public String toString(){
         return("Compte Simple" +super.toString()+"Decouvert="+decouvert );
     }

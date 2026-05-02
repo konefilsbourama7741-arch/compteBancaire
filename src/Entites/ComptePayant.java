@@ -1,5 +1,5 @@
 package Entites;
 
-public class comptePayant extends Compte{
+public class ComptePayant extends Compte{
 
 }

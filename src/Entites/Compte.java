@@ -5,10 +5,18 @@ public class Compte {
     protected float solde;
     private int nbCompte;
 
-    public Compte() {
+    /* public Compte() {
         ++nbCompte;
         code = nbCompte;
         this.solde = 0;
+
+
+    }*/
+
+    public Compte(int code, float solde, int nbCompte) {
+        this.code = code;
+        this.solde = solde;
+        this.nbCompte = nbCompte;
     }
 
     public void verser(float mt) {
